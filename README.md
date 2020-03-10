@@ -10,6 +10,8 @@ I've re-created most of the graphics.
 
 I created [a script](https://github.com/omgmog/psc-theme-text-image-generator) to make generating text-based images faster (in all locales), and used Photoshop to diligently tackle everything else.
 
+This fork of the original theme replaces the English text image files with regenerated ones using ITC Stone Sans Bold, the font used on the original PlayStation BIOS and in the PlayStation Classic menu default theme. This means the text matches that of the original theme, only in higher quality, rather than using Arial text which looks somewhat off. The graphics were generated using the [tool](https://github.com/omgmog/psc-theme-text-image-generator) made by the original author.
+
 ### How do I use this?
 
 You need to have your Playstation Classic modded with _Bleemsync!_, and then your `boot.sh` or `lolhax.sh` needs to mount your theme directory from USB rather than then eMMC, e.g:
@@ -22,6 +24,8 @@ mount -o bind /media/theme/font/ /usr/sony/share/data/font/
 ```
 
 Then grab the latest release of this theme from [here](https://github.com/omgmog/psc-theme-hd/releases) and extract it to your USB stick so that you have a `theme `directory containing all of the `images`, `font` and `sounds` directories.
+
+The default folder mount for BleemSync 1.1 from the USB drive is /etc/bleemsync/theme/ ; drop the whole project into there as a subfolder.
 
 ![](https://i.imgur.com/S6hh7XE.png)
 
