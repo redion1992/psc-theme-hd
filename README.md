@@ -10,7 +10,7 @@ I've re-created most of the graphics.
 
 I created [a script](https://github.com/omgmog/psc-theme-text-image-generator) to make generating text-based images faster (in all locales), and used Photoshop to diligently tackle everything else.
 
-This fork of the original theme replaces the English text image files with regenerated ones using ITC Stone Sans Bold, the font used on the original PlayStation BIOS and in the PlayStation Classic menu default theme. This means the text matches that of the original theme, only in higher quality, rather than using Arial text which looks somewhat off. The graphics were generated using the [tool](https://github.com/omgmog/psc-theme-text-image-generator) made by the original author.
+This fork of the original theme replaces the English text image files with regenerated ones using ITC Stone Sans Std Bold, the font used on the original PlayStation BIOS and in the PlayStation Classic menu default theme. This means the text matches that of the original theme, only in higher quality, rather than using Arial text which looks somewhat off. The graphics were generated using the [tool](https://github.com/omgmog/psc-theme-text-image-generator) made by the original author.
 
 ### How do I use this?
 
